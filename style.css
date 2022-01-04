@@ -11,13 +11,14 @@ h2{
 .color{
     color: orangered;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
 .half{
     width: 50%;
     padding: 5%;
+   
 }
 .half img{
     width: 80%;
@@ -39,4 +40,30 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.full-babybox{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(29, 27, 25);
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#baby-id{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#stack-id{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,orangered);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
 }
